@@ -1,0 +1,143 @@
+.App-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+
+  & > div {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  & h2:first-of-type {
+    margin-top: 0;
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Summary */
+
+.App-grid-info {
+  background-color: var(--light);
+
+  & p {
+    margin: 0;
+  }
+
+  @media (max-width: 600px) {
+    border-radius: 0 0 1rem 1rem;
+  }
+}
+
+.App-grid-info-summary {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+  margin-top: 2rem;
+
+  & > img {
+    width: 100%;
+    max-width: 9rem;
+    min-width: 4rem;
+    border-radius: 5rem;
+    margin: auto;
+  }
+
+  & h1 {
+    color: var(--accent);
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr 2fr;
+    text-align: left;
+    margin-top: 0;
+  }
+}
+
+.App-grid-info-summary-content {
+  margin: auto 0 auto 1rem;
+}
+
+.App-grid-info-content {
+  margin-top: 1rem;
+}
+
+.App-grid-info-content-section {
+}
+
+/* Main */
+
+.App-grid-main {
+}
+
+.App-grid-main-content {
+  padding-top: 2rem;
+}
+
+.App-grid-main-content-section {
+  background: var(--light);
+  margin-left: -1rem;
+  padding: 0.25rem;
+  border-radius: 0 2rem 2rem 0;
+
+  /* So much effort for a reverse border radius. */
+  &::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    width: 2rem;
+    height: 3rem;
+    transform: translate(-0.26rem, calc(-3rem - 0.25rem));
+    background-color: transparent;
+    border-bottom-left-radius: 25px;
+    box-shadow: 0 1.5rem 0 0 var(--light);
+  }
+
+  & h2 {
+    margin-left: 2rem;
+
+    /* Can't forget the bottom one too. */
+    &::before {
+      content: "";
+      display: inline-block;
+      position: absolute;
+      width: 2rem;
+      height: 3rem;
+      transform: translate(calc(-2rem - 0.26rem), 2.05rem);
+      background-color: transparent;
+      border-top-left-radius: 25px;
+      box-shadow: 0 -1.5rem 0 0 var(--light);
+    }
+  }
+}
+
+.App-grid-main-content-span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  & img {
+    margin: auto 0 0 0;
+    max-height: 1.3rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 2rem;
+  }
+
+  & > p {
+    margin: auto 0 0 0.25rem;
+  }
+}
+
+.App-grid-main-content-span-header {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.clampText {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
