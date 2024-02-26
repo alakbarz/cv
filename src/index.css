@@ -72,3 +72,7 @@ ul {
   margin: 0.25rem;
   padding-left: 1rem;
 }
+
+li {
+  margin-bottom: 0.5rem;
+}
