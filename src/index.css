@@ -27,7 +27,7 @@
   font-family: InterVariable;
   font-style: italic;
   font-weight: 100 900;
-  font-display: block;
+  font-display: swap;
   src: url('/public/fonts/InterVariable-Italic.woff2') format('woff2');
 }
 

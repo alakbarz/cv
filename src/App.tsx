@@ -122,7 +122,7 @@ function App() {
             </SummarySection>
             <SummarySection header="Programming Languages">
               <ul>
-                <li>Web developement</li>
+                <li>Web development</li>
                 <li>TypeScript/JavaScript</li>
                 <li>Python</li>
                 <li>Go</li>
@@ -221,12 +221,12 @@ function App() {
             >
               <>
                 <p>
-                  Over 100 students (sole UK finalists) from HWU taking on the{" "}
+                  Extracurriclar university project with over 100 students from HWU taking on the international{" "}
                   <a href="https://www.solardecathlon.gov/international-middle-east.html">
-                    Solar Decathlon Middle East
+                    SDME
                   </a>{" "}
-                  project, designing and building a sustainable and innovative
-                  solar powered home.
+                  project; designing and building a sustainable and innovative
+                  solar powered home. We were the sole UK finalists.
                 </p>
 
                 <Project
