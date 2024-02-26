@@ -5,26 +5,30 @@
   --dark: #202020;
 
   font-family: Inter, sans-serif;
-  font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  font-feature-settings: 'liga' 1, 'calt' 1;
+  /* fix for Chrome */
 }
 
 @supports (font-variation-settings: normal) {
-  :root { font-family: InterVariable, sans-serif; }
+  :root {
+    font-family: InterVariable, sans-serif;
+  }
 }
 
 @font-face {
   font-family: InterVariable;
   font-style: normal;
   font-weight: 100 900;
-  font-display: swap;
+  font-display: block;
   src: url('/public/fonts/InterVariable.woff2') format('woff2');
 }
+
 @font-face {
   font-family: InterVariable;
   font-style: italic;
   font-weight: 100 900;
-  font-display: swap;
-  src: url('/public/fonts/InterVariable-Italic.woff2?v=4.0') format('woff2');
+  font-display: block;
+  src: url('/public/fonts/InterVariable-Italic.woff2') format('woff2');
 }
 
 body {
@@ -35,6 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  max-width: 1280px;
 }
 
 code {
@@ -46,7 +51,9 @@ h1 {
   margin: 0;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   margin-bottom: 0;
 }
 

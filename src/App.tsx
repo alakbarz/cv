@@ -184,7 +184,7 @@ function App() {
               <>
                 <p>
                   Working on the core product which serves flight results to
-                  travellers.
+                  travellers, with an emphasis on performance and accessibility.
                 </p>
 
                 <Project heading="Save To List • 2023" />
@@ -297,7 +297,7 @@ function App() {
             />
             <p>
               Personal website built from scratch using pure HTML, CSS, running
-              on a Go web server. Briefly hosted in the cloud (
+              on a Go web server. Very performant. Briefly hosted in the cloud (
               <a href="https://cloud.google.com/">GCP VPS</a>), now in my
               homelab.
             </p>
