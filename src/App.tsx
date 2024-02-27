@@ -109,8 +109,8 @@ function App() {
                 <br />
                 <p>
                   My favourite hobbies are video editing/graphic design and
-                  astrophotography. I daily drive Ubuntu, Windows, and MacOS 😩 and a
-                  custom ROM on Android.
+                  astrophotography. I daily drive Ubuntu, Windows, and MacOS 😩
+                  and a custom ROM on Android.
                 </p>
               </>
             </SummarySection>
@@ -130,10 +130,27 @@ function App() {
             </SummarySection>
             <SummarySection header="Skills">
               <ul>
-                <li><a href="https://github.com/features/actions">GitHub Actions</a> CI pipeline (DevOps)</li>
-                <li><a href="https://www.cypress.io/">Cypress</a>/<a href="https://percy.io/">Percy</a> automated visual testing</li>
-                <li>Incident management using <a href="https://incident.io/">incident.io</a> and <a href="https://newrelic.com/">New Relic</a></li>
-                <li>Automated performance testing with <a href="https://developer.chrome.com/docs/lighthouse/overview/">Lighthouse</a></li>
+                <li>
+                  <a href="https://github.com/features/actions">
+                    GitHub Actions
+                  </a>{" "}
+                  CI pipeline (DevOps)
+                </li>
+                <li>
+                  <a href="https://www.cypress.io/">Cypress</a>/
+                  <a href="https://percy.io/">Percy</a> automated visual testing
+                </li>
+                <li>
+                  Incident management using{" "}
+                  <a href="https://incident.io/">incident.io</a> and{" "}
+                  <a href="https://newrelic.com/">New Relic</a>
+                </li>
+                <li>
+                  Automated performance testing with{" "}
+                  <a href="https://developer.chrome.com/docs/lighthouse/overview/">
+                    Lighthouse
+                  </a>
+                </li>
                 <li>Mentoring</li>
               </ul>
             </SummarySection>
@@ -221,7 +238,8 @@ function App() {
             >
               <>
                 <p>
-                  Extracurriclar university project with over 100 students from HWU taking on the international{" "}
+                  Extracurriclar university project with over 100 students from
+                  HWU taking on the international{" "}
                   <a href="https://www.solardecathlon.gov/international-middle-east.html">
                     SDME
                   </a>{" "}
