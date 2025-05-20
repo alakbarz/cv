@@ -135,6 +135,10 @@
   gap: 0.5rem;
 }
 
+.App-grid-main-content-span-header-heading {
+  margin-top: 0;
+}
+
 .clampText {
   display: -webkit-box;
   -webkit-line-clamp: 1;
