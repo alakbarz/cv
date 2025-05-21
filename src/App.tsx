@@ -84,7 +84,7 @@ function App() {
             <SummarySection header="Technical Skills">
               <ul>
                 <li>TypeScript/JavaScript</li>
-                <li>React (3 years) & Vue (1 year)</li>
+                <li>React & Vue</li>
                 <li>Python</li>
                 <li>Go</li>
                 <li>CI/CD & DevOps (GitHub Actions)</li>
